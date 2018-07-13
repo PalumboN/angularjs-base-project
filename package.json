@@ -1,0 +1,55 @@
+{
+  "name": "kiwi-bot",
+  "version": "1.0.0",
+  "description": "KIWI - Bot para Instagram",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha -r globals.js -r should -w"
+  },
+  "keywords": [
+    "instagram",
+    "followers",
+    "seguidores"
+  ],
+  "author": "Palumbo",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-animate": "^1.6.7",
+    "angular-drag-and-drop-lists": "^2.1.0",
+    "angular-file-input": "^1.0.2",
+    "angular-touch": "^1.6.7",
+    "angular-translate": "^2.16.0",
+    "angular-ui-bootstrap": "^2.5.6",
+    "angular-ui-router": "^0.4.3",
+    "bluebird": "^3.5.1",
+    "body-parser": "^1.17.2",
+    "bootstrap": "^3.3.7",
+    "crud-mongoose-simple": "^2.0.5",
+    "crypto-js": "^3.1.5",
+    "express": "^4.16.2",
+    "express-session": "^1.15.6",
+    "filestack-js": "^0.11.2",
+    "font-awesome": "^4.7.0",
+    "gmail-send": "^1.2.13",
+    "hmacsha1": "^1.0.0",
+    "http": "0.0.0",
+    "jquery": "^3.2.1",
+    "lodash": "^4.17.4",
+    "mdbootstrap": "^4.4.3",
+    "moment": "^2.10.6",
+    "mongoose": "^4.13.7",
+    "ngstorage": "^0.3.11",
+    "passport": "^0.4.0",
+    "passport-http": "^0.3.0",
+    "passport-local": "^1.0.0",
+    "prerender-node": "^3.1.1",
+    "request": "^2.83.0",
+    "request-promise": "^4.2.2",
+    "require-dir": "^0.3.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.0",
+    "should": "^13.2.1"
+  }
+}
