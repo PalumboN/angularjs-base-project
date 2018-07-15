@@ -1,0 +1,50 @@
+a, input[type=text], input[type=number], label {
+  font-size: 2rem;
+}
+
+.btn {
+  font-size: 1.3rem;
+}
+
+.table>tbody>tr>td {
+  vertical-align: middle;
+}
+
+textarea.form-control {
+  font-size: 1.4rem;
+  margin-bottom: 0;
+  height: 6rem;
+}
+
+.carousel-inner,
+.carousel-inner>div>div {
+  height: 100%;
+  width: 100%;
+}
+
+.img-product {
+  margin: auto;
+  vertical-align: middle;
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.lang {
+  width: 20px;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-75 {
+  width: 75%;
+}
+
+.catalog-img {
+  width: inherit;
+}
